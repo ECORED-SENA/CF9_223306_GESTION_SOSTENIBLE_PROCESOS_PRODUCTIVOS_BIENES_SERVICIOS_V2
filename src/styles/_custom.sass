@@ -2,14 +2,14 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    max-width: 175px
+    top: 20%
+    right: 65%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 26%
+    right: 20%
 
 @keyframes float1
   0%
@@ -17,3 +17,52 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal
+  .banner-principal__row
+    .banner-principal__info
+      .banner-principal__componente h1, .banner-principal__descripcion p
+        color: black
+      .banner-principal__accion a
+        span, i
+          color: white
+    .banner-principal__img
+      img
+        max-width: 428px
+
+.bg-img-edit
+  position: relative
+  margin-left: -3rem
+  margin-right: -3rem
+  padding: 0 3rem
+  min-width: calc( 100% - 6rem )
+
+.edit-cajon-b
+  &::before
+    opacity: 1
+    height: 100%
+    width: 295px
+    background-color: #F7E9E1 !important
+    @media (max-width: 768px)
+      width: 100%
+.slyder-f
+  .horizontal-scroll
+    display: flex !important
+    align-items: stretch !important
+    height: 100%
+    padding: 5rem 1rem
+    .slyder-f__slyde
+      display: flex
+      align-items: stretch
+.edit-bg-text
+  position: relative
+  display: flex
+  align-items: center
+  &::before
+    content: ''
+    width: 295px
+    height: 100%
+    position: absolute
+    top: 0
+    right: 0
+    background-color: #F7E9E1

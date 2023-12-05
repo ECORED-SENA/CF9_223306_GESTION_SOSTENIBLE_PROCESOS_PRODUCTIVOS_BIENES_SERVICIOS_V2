@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1320" height="507" viewBox="0 0 1320 507">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_305670" data-name="Rectángulo 305670" width="1320" height="507" rx="18" transform="translate(-12619 -12328)" fill="#faebcd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_306357" data-name="Rectángulo 306357" width="1341.994" height="507.409" transform="translate(541.013 -1811.473)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_700532" data-name="Enmascarar grupo 700532" transform="translate(12619 12328)" clip-path="url(#clip-path)">
+    <g id="Grupo_949453" data-name="Grupo 949453" transform="translate(-13170.359 -10516.404)">
+      <path id="Trazado_626448" data-name="Trazado 626448" d="M0,0H1342.3V507H0Z" transform="translate(540.703 -1811.064)" fill="#f0bd51"/>
+      <path id="Trazado_626450" data-name="Trazado 626450" d="M1014.289-1277.7s-514.752,111.45-315.591-242.72c105.006-186.733-18.115-219.257-158-208.277v534.377h851.279C1327.891-1272.331,1269.445-1318.78,1014.289-1277.7Z" transform="translate(0.31 -109.744)" fill="#f8c966"/>
+      <g id="Grupo_949450" data-name="Grupo 949450">
+        <g id="Grupo_949449" data-name="Grupo 949449" clip-path="url(#clip-path-2)">
+          <g id="Grupo_949448" data-name="Grupo 949448" transform="translate(2892.334 -226.355) rotate(-90)">
+            <path id="Trazado_626445" data-name="Trazado 626445" d="M1882.422-1393.754c-204.5-131.9-380.318-160.57-380.318-3.973,0,221.681-53.036,212.987-318.216,52.159C1053.734-1424.5,977.905-1318.45,934.4-1190v266.669h948.018Z" fill="#faebcd" fill-rule="evenodd"/>
+          </g>
+        </g>
+      </g>
+      <path id="Trazado_626449" data-name="Trazado 626449" d="M789.352-1492.81s-270.262,58.515-165.7-127.436c55.132-98.041-9.511-115.117-82.953-109.352v280.566h446.95C954-1489.991,923.317-1514.378,789.352-1492.81Z" transform="translate(0.31 144.968)" fill="#583cb6"/>
+    </g>
+  </g>
+</svg>
