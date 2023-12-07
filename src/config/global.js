@@ -206,8 +206,40 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'Castillo, P., L. (2019). El modelo Deming (PHVA) como estrategia competitiva para realizar el potencial administrativo. (Tesis de grado). Universidad Militar Nueva Granada.',
+      link: 'https://repository.unimilitar.edu.co/bitstream/handle/10654/34875/CastilloPineda%20LadyEsmeralda2019.pdf.pdf?sequence=1&isAllowed=y',
+    },
+    {
+      referencia: 'Deming, W. E. (1989). Calidad, productividad y competitividad. La salida de la crisis. Ediciones Díaz.',
       link: '',
+    },
+    {
+      referencia: 'Gómez, R., M. A. (2017). Gestión de la información documentada y por procesos en la organización O y G Construcciones S.A.S. según la norma ISO 9001:2015 Santos de los Díaz.',
+      link: 'https://red.uao.edu.co/bitstream/handle/10614/9740/T07408.pdf;sequence=',
+    },
+    {
+      referencia: 'Gómez, M., J. (2017). Guía para la aplicación de la NTC-ISO 9001:2015. Aenor Ediciones.',
+      link: '',
+    },
+    {
+      referencia: 'Guevara, D., K. N. (2020). Guía para elaborar la información documentada para un Sistema de gestión de calidad basado en la NTC ISO 9001:2015 para la empresa B & Z Ingeniería S.A.S. (Tesis de grado). Universidad Católica de Colombia.',
+      link: 'https://repository.ucatolica.edu.co/bitstream/10983/25345/1/GUIA%20PARA%20ELABORAR%20LA%20%20INFORMACION%20DOCUMENTADA%20PARA%20UN%20SISTEMA%20DE%20GESTION%20DE%20CALIDAD%20BASADO%20EN%20LA%20NTC%20ISO%209001-2015%20PARA%20LA%20EMPRESA%20B%20%26%20Z%20INGENIERIA%20SAS..pdf',
+    },
+    {
+      referencia: 'López, L., D. C. (2018). Calidad para la productividad y la competitividad. Universidad Católica de Pereira.',
+      link: 'https://www.researchgate.net/publication/330938180_Calidad_para_la_Productividad_y_la_Competitividad',
+    },
+    {
+      referencia: 'Montalvo, O. G. (2010). Diagnóstico empresarial (análisis integral). Universidad Mayor de San Andrés.',
+      link: 'https://repositorio.umsa.bo/xmlui/bitstream/handle/123456789/7322/124365.pdf?sequence=1&isAllowed=y',
+    },
+    {
+      referencia: 'Portugal, V. (2017). Diagnóstico empresarial. Universidad del Área Andina.',
+      link: 'https://digitk.areandina.edu.co/bitstream/handle/areandina/1489/Diagn%C3%B3stico%20Empresarial.pdf?sequence=1&isAllowed=y',
+    },
+    {
+      referencia: 'Torres, I. (s.f.). Cómo hacer una caracterización de procesos paso a paso. IVE Consultores.',
+      link: 'https://iveconsultores.com/caracterizacion-de-procesos/',
     },
   ],
   creditos: [
@@ -231,10 +263,34 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Víctor Manuel Isaza Córdoba',
+          cargo: 'Experto temático ',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro del Diseño y la Metrología - Regional Distrito Capital ',
+        },
+        {
+          nombre: 'Luz Aída Quintero Velásquez',
+          cargo: 'Diseñadora Instruccional',
+          centro:
+            'Centro de Gestión Industrial - Regional Distrito capital',
+        },
+        {
+          nombre: 'Ana Vela Rodríguez Velásquez',
+          cargo: 'Diseñadora Instruccional',
+          centro:
+            'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Asesor Metodológico',
+          centro:
+            'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Corrector de estilo',
+          centro:
+            'Centro de Diseño y Metrologí - Regional Distrito Capital',
         },
       ],
     },
@@ -242,25 +298,25 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Fabian Zarate',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Camilo Bolaño',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
+          nombre: '',
           cargo: 'Animador y Producción audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Camilo Bolaño',
           cargo: 'Actividad Didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
