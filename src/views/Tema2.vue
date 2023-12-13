@@ -52,9 +52,9 @@
             img.w-100(src="@/assets/curso/temas/tema2/img-6.jpg" style="max-width: 190px;")
           .col-6.px-2.d-flex.flex-wrap.align-content-center
             p.w-100.mb-0 Genera mayor competitividad y procesos más flexibles y eficaces de productividad.
-    .mn.p-4(style="background-color: #583cb6 ").mb-5
+    .mn.p-lg-4.p-5(style="background-color: #583cb6 ").mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-1.col-3(data-aos="fade-right"): img(src='@/assets/curso/temas/21.svg', alt='')
+        .col-lg-1.col-3.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/21.svg', alt='')
         .col-lg-11
           p.mb-0.fw-bold.text-white #[b ¡Importante!] El reto en la implementación de matrices de recopilación de información es generar una cultura organizacional que suscite la generación de ideas, la reestructuración, ajuste en los procesos y de continuidad a sistemas de capacitación con tecnologías futuras a cada uno de los integrantes de la organización.
     .d-flex.flex-wrap.align-items-center.mb-5
@@ -484,9 +484,11 @@
       h2#t_2_3 2.3 Registro de la información 
     
     .cajon-b.color-primario.edit-cajon-b.p-3.mb-5
-      .d-flex.align-items-center
-        img(src="@/assets/curso/temas/tema2/img-24.svg" style="max-width: 85px")
-        p.mb-0.col.mb-0.ps-3 Acumular datos en una compañía ya no es un privilegio, sino una necesidad sentida que tienen las empresas; emplear infraestructuras tecnológicas de vanguardia, permitirá una medición con indicadores de gestión. Esto aportará información clave y entregará resultados que serán soporte en la toma de decisiones.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-1.col-3.mb-lg-0.mb-3
+          img(src="@/assets/curso/temas/tema2/img-24.svg" style="max-width: 85px")
+        .col-lg-11
+          p.mb-0.col.mb-0.ps-3 Acumular datos en una compañía ya no es un privilegio, sino una necesidad sentida que tienen las empresas; emplear infraestructuras tecnológicas de vanguardia, permitirá una medición con indicadores de gestión. Esto aportará información clave y entregará resultados que serán soporte en la toma de decisiones.
     
     .d-flex.flex-wrap.mb-5.align-items-center
       .col-xl-8.order-2.order-xl-1
