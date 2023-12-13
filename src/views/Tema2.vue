@@ -14,9 +14,12 @@
           br
           br
           |Lo anterior se basa en la aplicación permanente de pequeñas mejoras que agrupan técnicas para hacerlo con un óptimo y sostenible ritmo, que potencia la competitividad y reduce costos globales (especialmente indirectos), manteniendo estándares alineados con la planeación estratégica de la empresa y disminuyendo los tiempos de ciclo de fabricación o prestación del servicio.
-    .edit-bg-text.mb-5
-      p.position-relative.col.mb-0 El sistema de gestión de la calidad que se fundamenta en el concepto de documentar la información como cimiento principal y entendido como: todas aquellas acciones o actividades que clasifican operaciones, procesos o procedimientos ociosos, o superfluos que no son significativos para el buen desarrollo de la productividad en la empresa.
-      img.position-relative(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 85px")
+    .cajon-b.color-primario.arriba-derecha.p-3.mb-5
+      .row.justify-content-center.align-items-center
+        .col-lg-1.col-4.mb-lg-0.mb-3.order-lg-2
+          img.position-relative(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 85px")
+        .col-lg-11
+          p.position-relative.col.mb-0 El sistema de gestión de la calidad que se fundamenta en el concepto de documentar la información como cimiento principal y entendido como: todas aquellas acciones o actividades que clasifican operaciones, procesos o procedimientos ociosos, o superfluos que no son significativos para el buen desarrollo de la productividad en la empresa.
     
     .d-flex.flex-wrap.mb-5.align-items-center
       .col-xl-8.order-2.order-xl-1
@@ -88,7 +91,8 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/iNvHC9fxwH8?si=1x0gxBZYi3Hzmcjy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Información documentada
     
     p.mb-5 Los conceptos organizacionales, integrados a la información documentada, son una terminología de gestión de recopilación de datos que genera cambios y pequeñas mejoras en la productividad, en la infraestructura tecnológica (operacional y digital), que permite reducir a métodos fáciles procesos y procedimientos que, en consecuencia, mejoran el rendimiento del trabajo. Esto lleva a la organización hacia una espiral de innovación gradual y a condiciones requeridas por el cliente. 
       br
@@ -153,10 +157,12 @@
             img(src='@/assets/curso/temas/tema2/l-7.svg' style="max-width: 82px")
       
       
-    .cajon-b.color-primario.edit-cajon-b.p-3.mb-5
-      .d-flex
-        img(src="@/assets/curso/temas/tema2/img-8.svg" style="max-width: 85px")
-        p.col.mb-0.ps-3 La documentación es una metodología incluyente que se implementa dentro de los sistemas de calidad total internos, busca potenciar una cultura de mejores prácticas de manufactura en las organizaciones. Su punto de acción está enmarcado en el desarrollo de un ambiente eficiente, agradable y saludable de trabajo, a partir del desempeño correcto y organizado de las operaciones diarias, logrando así influir significativamente en los estándares de calidad, de precio y condiciones requeridos por el cliente.
+    .cajon-b.color-primario.p-3.mb-5
+      .row.justify-content-center.align-items-center
+        .col-lg-1.col-4.mb-lg-0.mb-3
+          img(src="@/assets/curso/temas/tema2/img-8.svg" style="max-width: 85px")
+        .col-lg-11
+          p.col.mb-0.ps-3 La documentación es una metodología incluyente que se implementa dentro de los sistemas de calidad total internos, busca potenciar una cultura de mejores prácticas de manufactura en las organizaciones. Su punto de acción está enmarcado en el desarrollo de un ambiente eficiente, agradable y saludable de trabajo, a partir del desempeño correcto y organizado de las operaciones diarias, logrando así influir significativamente en los estándares de calidad, de precio y condiciones requeridos por el cliente.
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 3
       span Documentación de la información en los sistemas de gestión de la calidad
@@ -239,27 +245,27 @@
     p.mb-5 Para los sectores productivos, hablar de recopilación de información diagnóstica y sistemas de gestión de la calidad, significa intentar reducir costos de la producción, haciendo referencia a la columna vertebral de la infraestructura operacional, es decir, al valor monetario de sus recursos esenciales, como es: 
 
     .d-flex.flex-wrap.justify-content-center.mb-5
-      .col-md-5.col-lg-4.col-xl.px-2.mb-3.d-flex
+      .col-md-5.col-lg-4.col-xl.px-2.mb-3.d-flex.w-100
         .tarjeta.w-100.d-flex.flex-wrap.p-3.p-md-4(style="background-color: #FEC08A")
           img(src="@/assets/curso/temas/tema2/c-1.svg" style="max-width: 69px")
           p.w-100.mb-0 El factor humano.
       
-      .col-md-5.col-lg-4.col-xl.px-2.mb-3.d-flex
+      .col-md-5.col-lg-4.col-xl.px-2.mb-3.d-flex.w-100
         .tarjeta.w-100.d-flex.flex-wrap.p-3.p-md-4(style="background-color: #FAEBCD")
           img(src="@/assets/curso/temas/tema2/c-2.svg" style="max-width: 69px")
           p.w-100.mb-0 Materiales y recursos auxiliares. 
       
-      .col-md-5.col-lg-4.col-xl.px-2.mb-3.d-flex
+      .col-md-5.col-lg-4.col-xl.px-2.mb-3.d-flex.w-100
         .tarjeta.w-100.d-flex.flex-wrap.p-3.p-md-4(style="background-color: #FEC08A")
           img(src="@/assets/curso/temas/tema2/c-3.svg" style="max-width: 69px")
           p.w-100.mb-0 Mantenimiento de la maquinaria. 
       
-      .col-md-5.col-lg-4.col-xl.px-2.mb-3.d-flex
+      .col-md-5.col-lg-4.col-xl.px-2.mb-3.d-flex.w-100
         .tarjeta.w-100.d-flex.flex-wrap.p-3.p-md-4(style="background-color: #FAEBCD")
           img(src="@/assets/curso/temas/tema2/c-4.svg" style="max-width: 69px")
           p.w-100.mb-0 Infraestructuras tecnológicas. 
       
-      .col-md-5.col-lg-4.col-xl.px-2.mb-3.d-flex
+      .col-md-5.col-lg-4.col-xl.px-2.mb-3.d-flex.w-100
         .tarjeta.w-100.d-flex.flex-wrap.p-3.p-md-4(style="background-color: #FEC08A")
           img(src="@/assets/curso/temas/tema2/c-5.svg" style="max-width: 69px")
           p.w-100.mb-0 Herramientas digitales, que proveen de servicios o productos de óptima calidad a la demanda del mercado.
@@ -283,7 +289,7 @@
       .tarjeta.color-acento-botones.p-3(x="92%" y="25%" numero="+" style="background-color: #EFEFEF; border-radius: 0;")
         .h5.mb-2(style="color: black;") Verificar
         p(style="color: black;") Realizar el seguimiento y (cuando sea aplicable) la medición de los procesos y los productos y servicios resultantes respecto a las políticas, los objetivos, los requisitos y las actividades planificadas e informar sobre los resultados. 
-      .tarjeta.color-acento-botones.p-3(x="91%" y="77%" numero="+" style="background-color: #EFEFEF; border-radius: 0;")
+      .tarjeta.color-acento-botones.p-3(x="89%" y="77%" numero="+" style="background-color: #EFEFEF; border-radius: 0;")
         .h5.mb-2(style="color: black;") Actuar
         p(style="color: black;") Tomar acciones para mejorar el desempeño, cuando sea necesario. 
       .tarjeta.color-acento-botones.p-3(x="9%" y="77%" numero="+" style="background-color: #EFEFEF; border-radius: 0;")
@@ -464,10 +470,13 @@
             li
               i.fas.fa-file-alt
               | Área de diseño. 
-          
-    .edit-bg-text.edit-bg-color2.mb-5
-      p.position-relative.col.mb-0 Para el desarrollo de la temática, es clave que el personal en proceso de aprendizaje sea lo suficientemente ingenioso para crear su propia estructura organizacional. Es fundamental que reconozcan la necesidad de acoplar sus conocimientos a las fallas actuales de la empresa donde trabajan o que asesoran, ya que, idealmente, son idóneos para diseñar estrategias corporativas eficiente y eficaces: organigramas, operaciones, procesos, procedimientos, actividades, elementos (acoplados a la sostenibilidad).
-      img.position-relative(src="@/assets/curso/temas/tema2/img-23.svg" style="max-width: 85px")
+      
+    .cajon-b.color-acento-contenido.arriba-derecha.p-3.mb-5
+      .row.justify-content-center.align-items-center
+        .col-lg-1.col-4.mb-lg-0.mb-3.order-lg-2
+          img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema2/img-23.svg" style="")
+        .col-lg-11.mb-lg-0.mb-3
+          p.col.mb-0 Para el desarrollo de la temática, es clave que el personal en proceso de aprendizaje sea lo suficientemente ingenioso para crear su propia estructura organizacional. Es fundamental que reconozcan la necesidad de acoplar sus conocimientos a las fallas actuales de la empresa donde trabajan o que asesoran, ya que, idealmente, son idóneos para diseñar estrategias corporativas eficiente y eficaces: organigramas, operaciones, procesos, procedimientos, actividades, elementos (acoplados a la sostenibilidad).
     
     Separador
 
@@ -508,9 +517,9 @@
             h4 Sistemas secundarios
             p.mb-0 De mucha mayor complejidad, son recomendados para tener en sus memorias la información de forma permanente. Estas alternativas se dan, aunque no esté en funcionamiento el servicio eléctrico; pueden archivar cualquier cantidad de datos por el tiempo que se requiera. Un ejemplo vivencial son los discos duros (SSD, HDD) de un equipo de cómputo.
     p.mb-5 Archivar información implica la utilización de distintos receptores de datos; estos deberán integrar, eficientemente, todas las áreas generales de la empresa. Así mismo, deben ser reconocidos y entendidos como soporte técnico, permanentemente empleados por todo el equipo de líderes y colaboradores de la compañía para unificar criterios en el manejo de la información; ello supone hablar el mismo lenguaje y alcanzar metas propuestas.
-    .mn.p-4(style="background-color: #583cb6 ").mb-5
+    .mn.p-5(style="background-color: #583cb6 ").mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-1.col-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/c3.svg', alt='')
+        .col-lg-1.col-3.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/c3.svg', alt='')
         .col-lg-11
           p.mb-0.fw-bold.text-white El acopio de información hace parte, a largo plazo, de la estructura logística de una empresa. Con ello, se tiene acceso a la información cuando se le necesitare. Uno de los objetivos más relevantes es garantizar a los negocios el uso de bases de datos en tiempo real, consultar fichas técnicas de materiales e insumos, contar con un stock de inventarios, generar ordene de compras, consultar base de datos de precios de venta, separar pedidos, administrar procesos, etc.
 
@@ -594,7 +603,7 @@
         .row.justify-content-center.mb-3
           .col-8
             img.mx-auto(src='@/assets/curso/temas/tema2/s-6.svg' style="max-width: 113px; margin-top: -80px")
-        p #[b #[span(style="background-color: #E9BE64; padding: 2px 3px") 06.] Guardar datos por intermedio de software especializados]
+        p #[b #[span(style="background-color: #E9BE64; padding: 2px 3px") 06.] Guardar datos por intermedio de #[em software] especializados]
           br
           | Cuando la empresa cuenta con el archivo de la información personalizada, construye sistemas que se acoplan a las necesidades logísticas de la empresa.
     
@@ -603,9 +612,14 @@
       br
       |El objetivo siempre es que el registro de la información sea confiable, seguro, que brinde garantías y que sea válido para la toma de decisiones, aunque se puede optar por enrutar la temática con miras a donde se obtenga alta cantidad de datos, para fortificar el abordaje de una solución de una necesidad o problema determinado a tratar.
     .bg-img-edit.py-5.mb-5(style="background-color: #FFF9ED")
-      .edit-bg-text.edit-bg-color2.mb-5
-        p.fw-bold.position-relative.col.mb-0 Partiendo de lo anterior, se hace necesario usar protocolos en el almacenamiento de datos, los cuales se emplean estratégicamente en la trazabilidad logística de los procesos, los indicadores de gestión y como instrumentos para:
-        img.position-relative(src="@/assets/curso/temas/tema2/img-31.svg" style="max-width: 85px")
+      p.mb-0 Utilizar las clases arriba-derecha y similares para cambiar posicion del cuadro
+      .cajon-editado    
+        .cajon-b.color-acento-contenido.p-3.mb-5
+          .row.justify-content-center.align-items-center
+            .col-lg-1.col-4
+              img.position-relative(src="@/assets/curso/temas/tema2/img-31.svg" style="")
+            .col-lg-10
+              p.mb-0.fw-bold El fundamental, en las compañías, el uso de protocolos en el almacenamiento de datos; los cuales se emplean estratégicamente en la trazabilidad logística de los procesos, los indicadores de gestión y como instrumentos para:
       
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8.mb-lg-0.mb-3
@@ -640,7 +654,8 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/5JoPpxSML7U?si=MOsnM7V4A2nZJk_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Diagnóstico PHVA
   </template>
 
 <script>

@@ -116,7 +116,7 @@
     p.fw-bold Por otro lado, la elaboración de diagnósticos permite:
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3
-        .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false" style="background-color: #f7b174")
+        .tarjeta.tarjeta-slide.tarjeta-slide2.arriba(@mouseover="indicadorTarjetaSlide = false" style="background-color: #f7b174")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5.d-flex.flex-column.aling-items-center
                   .tarjeta.bg-white.rounded-pill.p-3.d-inline-block.mb-4
@@ -124,7 +124,7 @@
                   p.text-center Aplicar y definir políticas, estrategias, metas, objetivos y enrutar los nuevos procesos a elevados índices de productividad, efectividad, eficiencia y cumplimiento de metas.
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/11.png')})`}")
       .col-lg-4.mb-lg-0.mb-3
-        .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false" style="background-color: #f7b174")
+        .tarjeta.tarjeta-slide.tarjeta-slide2.arriba(@mouseover="indicadorTarjetaSlide = false" style="background-color: #f7b174")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5.d-flex.flex-column.aling-items-center
                   .tarjeta.bg-white.rounded-pill.p-3.d-inline-block.mb-4
@@ -132,7 +132,7 @@
                   p.text-center Suavizar las rutas críticas, controles y registros, a partir de la secuencia operacional reajustada, luego de aplicar teorías provenientes de un diagnóstico.
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/12.png')})`}")
       .col-lg-4.mb-lg-0.mb-3
-        .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false" style="background-color: #f7b174")
+        .tarjeta.tarjeta-slide.tarjeta-slide2.arriba(@mouseover="indicadorTarjetaSlide = false" style="background-color: #f7b174")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5.d-flex.flex-column.aling-items-center
                   .tarjeta.bg-white.rounded-pill.p-3.d-inline-block.mb-4
@@ -173,14 +173,14 @@
       h4.mx-3.mb-0 Diagnóstico organizacional
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/PHwgIYMHomY?si=eBxKFVRNKHjaGEC7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Diagnóstico Organizacional
     .p-2(style="background-color: #f0bd51 ").d-inline-block.mb-4
       h4.mx-3.mb-0 Diagnóstico empresarial
     figure.mb-5 
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2pE1U0Dj6CY?si=x0UBaVEN5JNU6t4f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Diagnóstico empresarial
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.1 Clasificación
     .row.justify-content-center.align-items-center.mb-5
@@ -192,7 +192,7 @@
       .col-lg-3.col-5(data-aos="fade-left"): img(src='@/assets/curso/temas/20.svg', alt='')
     .mn.p-4(style="background-color: #583cb6 ").mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-1.col-3(data-aos="fade-right"): img(src='@/assets/curso/temas/21.svg', alt='')
+        .col-lg-1.col-3.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/21.svg', alt='')
         .col-lg-11
           p.mb-0.fw-bold.text-white ¡Importante! El diagnóstico debe ser diseñado, evaluado, ejecutado, planificado y constantemente ajustado para beneficiar a la empresa y reorientarlo cuando sea necesario. 
     p.mb-5(data-aos='fade-right') En relación con el proceso de clasificación de los diagnósticos organizacionales, tenga presente:
@@ -211,21 +211,21 @@
             p Por lo anterior, la implementación de la estrategia y de su puesta en marcha, realizada por líderes de la empresa o por externos independientes, es una necesidad relevante.
           .col-lg-6.col-8
             figure
-              img(src='@/assets/curso/temas/22.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/23.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-lg-6.mb-4.mb-md-0
             h5 Diagnóstico funcional
             p Por tanto, el análisis del desempeño debe realizarse con base en un trabajo diligente, el cual se denomina diagnóstico funcional. 
           .col-lg-6.col-8
             figure
-              img(src='@/assets/curso/temas/22.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/24.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-lg-6.mb-4.mb-md-0
             h5 Evaluación del diagnóstico
             p Para que, estratégicamente, la evaluación del diagnóstico sea eficiente y productiva, la implementación estratégica del diseño debe ajustarse a la realidad del proceso y que no cause revuelo e incertidumbre entre los ejecutores.
           .col-lg-6.col-8
             figure
-              img(src='@/assets/curso/temas/22.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/25.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-lg-6.mb-4.mb-md-0
             h5 Evolución y sentido
@@ -236,30 +236,32 @@
     p.mb-5(data-aos='fade-right') Para afianzar el tema, se invita a explorar la información contenida en el siguiente video sobre clasificación de los diagnósticos organizacionales:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/wHjFQzrvCIs?si=8GJPuK00WHjthl8-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Clasificación de diagnóstico empresarial 
     p.mb-5(data-aos='fade-right') Refuerce los conceptos, procedimientos y elementos estudiados hasta este punto; para ello, analice con atención la información contenida en los dos videos que se presentan a continuación. En ellos, se muestran generalidades de las estrategias usadas por el Estado colombiano para el análisis de la información de las empresas y para diagnosticar el uso de dineros en la gestión financiera del proceso empresarial: 
     .p-2(style="background-color: #f0bd51 ").d-inline-block.mb-4
       h4.mx-3.mb-0 Gestión del Sarlaft
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/0NG6EHLnHAM?si=SWlxAK8iZBmLpDq9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Gestión SARLAFT: introducción
     .p-2(style="background-color: #f0bd51 ").d-inline-block.mb-4
       h4.mx-3.mb-0 Los clientes y el Sarlaft
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/nUWkkBIxJ3o?si=OaDT8tVdtF6ma-S_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Los clientes y el SARLAFT: introducción  
     Separador 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.2 Aplicación de técnicas
+      
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-9.mb-lg-0.mb-3
-        .row.justify-content-center.align-items-center.mb-4
-          .col-1.mb-lg-0.mb-3: img(src='@/assets/curso/temas/23.svg', alt='') 
-          .col-lg-11
-            p.mb-0 La apropiación del conocimiento, en los sistemas de gestión de la calidad en procesos sostenibles empresariales, es clave para generar confiabilidad en los equipos de producción y poder alcanzar las metas generales de productividad.
+        .cajon-b.color-primario.p-3.mb-4
+          .row.justify-content-center.align-items-center
+            .col-2.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/23.svg', alt='') 
+            .col-lg-10
+              p.mb-0 La apropiación del conocimiento, en los sistemas de gestión de la calidad en procesos sostenibles empresariales, es clave para generar confiabilidad en los equipos de producción y poder alcanzar las metas generales de productividad.
         p #[span(style="background-color: #f7dda6").fw-bold Por lo anterior, se deben incluir todos los tipos de tareas programadas y las demás técnicas modernas de asignación de actividades, según la infraestructura tecnológica digital y operacional que se tengan a cargo, por parte de líderes de proceso y colaboradores.]
         p Sobre la aplicación de técnicas de asignación de actividades, tenga en cuenta los siguientes aspectos:
       .col-lg-3.col-5: img(src='@/assets/curso/temas/24.svg', alt='')
@@ -313,7 +315,7 @@
             p La toma de decisiones puede ser un proceso complejo y siempre implica cierta incertidumbre y temor; con frecuencia puede ser asertivo y generar múltiples opciones de solución y convertirse en fuente de entrada económica extra. Así mismo, su interpretación también puede ser subjetiva y crearle más aristas a un problema.
     .mn.p-4(style="background-color: #583cb6 ").mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-1.col-3(data-aos="fade-right"): img(src='@/assets/curso/temas/21.svg', alt='')
+        .col-lg-1.col-3.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/21.svg', alt='')
         .col-lg-11
           p.mb-0.fw-bold.text-white También es importante entender las reacciones de causa-efecto y las consecuencias no previstas, porque el análisis de los hechos, las evidencias y los datos, conducen a una mayor objetividad y confianza en la toma de decisiones.
     Separador
@@ -334,56 +336,58 @@
           | #[span.fw-bold(style='color: #583CB6 ') A continuación, se mencionan los eventos más importantes:]           
     .row.justify-content-center.mb-5
       .col-lg-8
-        img(src='@/assets/curso/temas/37.svg', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/temas/37.svg', alt='Esquema gráfico en que enuncia, en secuencia, los eventos: Subestructura de entrada, Proceso y Subestructura de salida. ')
+      .col-8
+        img.d-block.d-lg-none(src='@/assets/curso/temas/37c.svg', alt='Esquema gráfico en que enuncia, en secuencia, los eventos: Subestructura de entrada, Proceso y Subestructura de salida. ')
     p.mb-5(data-aos='fade-right') El total de las logísticas de proceso poseen eventos de entrada y de salida. En otra instancia de estos eventos de entrada y salida, con un análisis característico de logística de procesos, también se deberán manejar los siguientes elementos:
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="zoom-in")
         PasosA.color-acento-contenido.mb-5(tipo="n")
-          .row(titulo="")
+          .row(titulo="").justify-content-center
+            .col-lg-2.col-3.order-lg-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/38.svg', alt='')
             .col-lg-10.mb-lg-0.mb-3
               h4 Objetivo
               p Determinar la característica del objeto del proceso; expresar claramente por qué se diseña esta lógica.
-            .col-lg-2.col-5: img(src='@/assets/curso/temas/38.svg', alt='')
-          .row(titulo="")
-            .col-lg-2.mb-lg-0.mb-3.col-5: img(src='@/assets/curso/temas/39.svg', alt='')
+          .row(titulo="").justify-content-center
+            .col-lg-2.col-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/39.svg', alt='')
             .col-lg-10
               h4 Responsables
               p Determinar colaboradores y administrativos de la logística del proceso.
-          .row(titulo="")
+          .row(titulo="").justify-content-center
+            .col-lg-2.col-3.order-lg-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/40.svg', alt='')
             .col-lg-10.mb-lg-0.mb-3
               h4 Elementos de entrada y salida
               p Identificar las áreas intervinientes en la logística del proceso.
-            .col-lg-2.col-5: img(src='@/assets/curso/temas/40.svg', alt='')
-          .row(titulo="")
-            .col-lg-2.mb-lg-0.mb-3.col-5: img(src='@/assets/curso/temas/41.svg', alt='')
+          .row(titulo="").justify-content-center
+            .col-lg-2.col-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/41.svg', alt='')
             .col-lg-10
               h4 Personas que intervienen en el proceso
               p Identificar cada una de las personas que intervienen en los procesos y sus roles.
-          .row(titulo="")
+          .row(titulo="").justify-content-center
+            .col-lg-2.col-3.order-lg-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/42.svg', alt='')
             .col-lg-10.mb-lg-0.mb-3
               h4 Controles de proceso
               p Definir filtros en cada uno de los procesos que arrojen información clara.
-            .col-lg-2.col-5: img(src='@/assets/curso/temas/42.svg', alt='')
-          .row(titulo="")
-            .col-lg-2.mb-lg-0.mb-3.col-5: img(src='@/assets/curso/temas/43.svg', alt='')
+          .row(titulo="").justify-content-center
+            .col-lg-2.col-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/43.svg', alt='')
             .col-lg-10
               h4 Registros asociados al proceso
               p Establecer qué información documentada se maneja.
-          .row(titulo="")
+          .row(titulo="").justify-content-center
+            .col-lg-2.col-3.order-lg-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/44.svg', alt='')
             .col-lg-10.mb-lg-0.mb-3
               h4 Establecer qué información documentada se maneja.
               p Determinar la trazabilidad e indicadores de gestión para el control preciso del proceso.
-            .col-lg-2.col-5: img(src='@/assets/curso/temas/44.svg', alt='')
-          .row(titulo="")
-            .col-lg-2.mb-lg-0.mb-3.col-5: img(src='@/assets/curso/temas/45.svg', alt='')
+          .row(titulo="").justify-content-center
+            .col-lg-2.col-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/45.svg', alt='')
             .col-lg-10
               h4 Descripción de actividades del proceso
               p Diseñar procesos, procedimientos, acciones y tareas correlacionadas o reestructurarlas.
-          .row(titulo="")
+          .row(titulo="").justify-content-center
+            .col-lg-2.col-3.order-lg-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/46.svg', alt='')
             .col-lg-10.mb-lg-0.mb-3
               h4 Riesgo de fallas
               p Definir qué riesgos pueden existir, que suponen fallas en el proceso. Establecer una matriz de riesgo del proyecto.
-            .col-lg-2.col-5: img(src='@/assets/curso/temas/46.svg', alt='')
     p.mb-5(data-aos='fade-right') Es importante saber que una logística de caracterización de procesos repercute de manera directa en el cronograma de flujo, por lo que su uso como soporte administrativo de esta se puede expresar según el siguiente listado: 
     .mn.p-4(style="background-color: #f0ecff ").mb-5
       .row.justify-content-center.align-items-center
@@ -420,7 +424,7 @@
           br
           br
           |Sencillamente se anexa cada columna o fila, acorde con las necesidades. El siguiente ejemplo puede serle muy útil:
-      .col-lg-3.col-6: img(src='@/assets/curso/temas/48.png', alt='') 
+      .col-lg-3.col-6: img.d-none.d-lg-block(src='@/assets/curso/temas/48.png', alt='') 
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -446,9 +450,9 @@
               p.mb-0 Documentar información relevante.
             li.d-flex
               i.fas.fa-atom
-              p.mb-0 Establecer secuencialmente fases de ejecución de la siguiente manera:
+              p.mb-0 Establecer secuencialmente fases de ejecución de la siguiente manera.
         .col-lg-4.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/50.svg', alt='')
-    p.mb-5(data-aos='fade-right') Teniendo claros los criterios de elaboración de una caracterización, es fundamental, además, realizarla en las siguientes fases:
+    p.mb-1(data-aos='fade-right') Teniendo claros los criterios de elaboración de una caracterización, es fundamental, además, realizarla en las siguientes fases:
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta-avatar
         img(src='@/assets/curso/temas/51.svg' alt='AvatarTop')
@@ -524,8 +528,8 @@
               img(src='@/assets/curso/temas/56.png', alt='Texto que describa la imagen')
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video      
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/pNrBmOW7rSA?si=eOEReM--xD8Vdvka" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Plan de acción 
 
 
 

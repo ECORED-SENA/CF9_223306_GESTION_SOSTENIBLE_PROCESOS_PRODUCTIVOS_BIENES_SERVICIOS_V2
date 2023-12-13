@@ -128,7 +128,7 @@ export default {
     {
       tema: '1.1 Clasificación',
       referencia:
-        'Superintendencia de Sociedades. (2021). <em>Elementos y etapas del Sagrilaf.</em> [Video]. YouTube.',
+        'Superintendencia de Sociedades. (2021). <em>Elementos y etapas del Sagrilaf.</em>',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=OFVrTMPQi5c',
     },
@@ -321,8 +321,26 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: '',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Wilson Andrés Arenales Cáceres ',
+          cargo: 'Storyboard e Ilustración ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Carmen Alicia Martinez Torres ',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya ',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
