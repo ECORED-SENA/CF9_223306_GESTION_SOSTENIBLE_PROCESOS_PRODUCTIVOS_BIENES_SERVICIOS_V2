@@ -612,7 +612,6 @@
       br
       |El objetivo siempre es que el registro de la información sea confiable, seguro, que brinde garantías y que sea válido para la toma de decisiones, aunque se puede optar por enrutar la temática con miras a donde se obtenga alta cantidad de datos, para fortificar el abordaje de una solución de una necesidad o problema determinado a tratar.
     .bg-img-edit.py-5.mb-5(style="background-color: #FFF9ED")
-      p.mb-0 Utilizar las clases arriba-derecha y similares para cambiar posicion del cuadro
       .cajon-editado    
         .cajon-b.color-acento-contenido.p-3.mb-5
           .row.justify-content-center.align-items-center

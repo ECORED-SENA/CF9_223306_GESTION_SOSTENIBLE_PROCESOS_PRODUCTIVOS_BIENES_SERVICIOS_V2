@@ -190,7 +190,7 @@
           br
           | #[span(style='color: #583CB6 ').fw-bold Para ser eficaz y eficiente, periódicamente se deben realizar diagnósticos organizacionales, que consiste en un análisis profundo de sus procesos, esto con enfoque gerencial y administrativo de cada área.]  
       .col-lg-3.col-5(data-aos="fade-left"): img(src='@/assets/curso/temas/20.svg', alt='')
-    .mn.p-4(style="background-color: #583cb6 ").mb-5
+    .mn.p-lg-4.p-5(style="background-color: #583cb6 ").mb-5
       .row.justify-content-center.align-items-center
         .col-lg-1.col-3.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/21.svg', alt='')
         .col-lg-11
@@ -259,7 +259,7 @@
       .col-lg-9.mb-lg-0.mb-3
         .cajon-b.color-primario.p-3.mb-4
           .row.justify-content-center.align-items-center
-            .col-2.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/23.svg', alt='') 
+            .col-lg-2.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/23.svg', alt='') 
             .col-lg-10
               p.mb-0 La apropiación del conocimiento, en los sistemas de gestión de la calidad en procesos sostenibles empresariales, es clave para generar confiabilidad en los equipos de producción y poder alcanzar las metas generales de productividad.
         p #[span(style="background-color: #f7dda6").fw-bold Por lo anterior, se deben incluir todos los tipos de tareas programadas y las demás técnicas modernas de asignación de actividades, según la infraestructura tecnológica digital y operacional que se tengan a cargo, por parte de líderes de proceso y colaboradores.]
@@ -295,9 +295,9 @@
           .col-lg-6.col-8
             figure
               img(src='@/assets/curso/temas/32.png', alt='Texto que describa la imagen')
-    .mn.p-4(style="background-color: #583cb6 ").mb-5
+    .mn.p-lg-4.p-5(style="background-color: #583cb6 ").mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-1.col-3(data-aos="fade-right"): img(src='@/assets/curso/temas/33.svg', alt='')
+        .col-lg-1.col-3.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/33.svg', alt='')
         .col-lg-11
           p.mb-0.fw-bold.text-white El enfoque en las técnicas de aplicación en los procesos, ayuda a alcanzar resultados coherentes y previsibles de manera más eficaz y eficiente. Esto, cuando las actividades se entienden y gestionan como procesos interrelacionados, los cuales funcionan como un sistema engranado.
     p.mb-5(data-aos='fade-right') Otros aspectos clave que se deben considerar y tener presentes, son:
@@ -313,7 +313,7 @@
             p Lo anterior facilita que la empresa tenga un enfoque estratégico hacia la toma de decisiones, basadas precisamente en esas evidencias. Las decisiones soportadas en el análisis y la evaluación de datos e información tienen mayor probabilidad de producir los resultados deseados.
           div(titulo="Objetividad - subjetividad")
             p La toma de decisiones puede ser un proceso complejo y siempre implica cierta incertidumbre y temor; con frecuencia puede ser asertivo y generar múltiples opciones de solución y convertirse en fuente de entrada económica extra. Así mismo, su interpretación también puede ser subjetiva y crearle más aristas a un problema.
-    .mn.p-4(style="background-color: #583cb6 ").mb-5
+    .mn.p-lg-4.p-5(style="background-color: #583cb6 ").mb-5
       .row.justify-content-center.align-items-center
         .col-lg-1.col-3.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/21.svg', alt='')
         .col-lg-11
@@ -322,7 +322,7 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3 Plan de acción y categorización de los resultados y estrategias 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3.col-7(data-aos="fade-right"): img(src='@/assets/curso/temas/36.svg', alt='')
+      .col-lg-3.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/36.svg', alt='')
       .col-lg-9(data-aos="fade-left")
         p #[span.fw-bold(style='color: #583CB6 ') La caracterización es la interpretación de eventos en los procesos; la participación de las personas consiste, eventualmente, en identificar el rol que cumple cada uno] en la cadena logística de suministros para realizar ajuste a su comportamiento y participación en acciones que interesan al sistema de mejora continua y a la gestión gerencial y administrativa.
           br
@@ -389,7 +389,7 @@
               h4 Riesgo de fallas
               p Definir qué riesgos pueden existir, que suponen fallas en el proceso. Establecer una matriz de riesgo del proyecto.
     p.mb-5(data-aos='fade-right') Es importante saber que una logística de caracterización de procesos repercute de manera directa en el cronograma de flujo, por lo que su uso como soporte administrativo de esta se puede expresar según el siguiente listado: 
-    .mn.p-4(style="background-color: #f0ecff ").mb-5
+    .mn.p-lg-4.p-5(style="background-color: #f0ecff ").mb-5
       .row.justify-content-center.align-items-center
         .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/47.svg', alt='')  
         .col-lg-5
@@ -450,7 +450,7 @@
               p.mb-0 Documentar información relevante.
             li.d-flex
               i.fas.fa-atom
-              p.mb-0 Establecer secuencialmente fases de ejecución de la siguiente manera.
+              p.mb-0 Establecer, secuencialmente, fases de ejecución.
         .col-lg-4.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/50.svg', alt='')
     p.mb-1(data-aos='fade-right') Teniendo claros los criterios de elaboración de una caracterización, es fundamental, además, realizarla en las siguientes fases:
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
