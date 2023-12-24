@@ -363,7 +363,7 @@
             p.mb-0 Luego se examinan las actividades que tienden a ejecutarse al interior de las áreas de la corporación y qué otras debemos diseñar o reestructurar en el organigrama funcional con su respectivo detalle y su correlación.  
           img.order-1.order-md-2.mx-auto.mb-4.mb-md-0(src="@/assets/curso/temas/tema2/img-18.png" style="max-width: 210px")
       
-      .tarjeta.p-4(titulo="PASO 1: The splendor asd asd asd as dasd" style='background-color: #f3edff')
+      .tarjeta.p-4(titulo="Evaluación de colaboradores" style='background-color: #f3edff')
         h4.mb-4 Evaluación de colaboradores
         .d-flex.flex-wrap.align-items-center
           .col-md.pe-md-4.order-2.order-md-1
@@ -377,8 +377,8 @@
             p.mb-0 Como se vio anteriormente, los diversos procesos y procedimientos se combinan, dando vía a la producción logística de bienes y servicios sostenibles, los cuales colaboran en la estructuración del organigrama de la corporación, por lo que cada departamento concreta una serie de ocupaciones con base en la función que desarrolla, su productividad y eficacia financiera, entonces dependen en gran medida de la participación en la planeación estratégica de la compañía. 
           img.order-1.order-md-2.mx-auto.mb-4.mb-md-0(src="@/assets/curso/temas/tema2/img-20.png" style="max-width: 210px")
       
-      .tarjeta.p-4(titulo="Título por recibir" style='background-color: #f3edff')
-        h4.mb-4 Título por recibir
+      .tarjeta.p-4(titulo="Desarrollo de funciones" style='background-color: #f3edff')
+        h4.mb-4 Desarrollo de funciones
         .d-flex.flex-wrap.align-items-center
           .col-md.pe-md-4.order-2.order-md-1
             p.mb-0 Como se vio anteriormente, los diversos procesos y procedimientos se combinan, dando vía a la producción logística de bienes y servicios sostenibles, los cuales colaboran en la estructuración del organigrama de la corporación, por lo que cada departamento concreta una serie de ocupaciones con base en la función que desarrolla, su productividad y eficacia financiera, entonces dependen en gran medida de la participación en la planeación estratégica de la compañía. 
@@ -396,7 +396,7 @@
           ul.lista-ul--color
             li
               i.fas.fa-file-alt
-              | Gerencia Financiera.  
+              | Gerencia financiera.  
             li
               i.fas.fa-file-alt
               | Gerencia administrativa.
@@ -441,7 +441,7 @@
           
             li
               i.fas.fa-file-alt
-              | Gerencia Administrativa.
+              | Gerencia administrativa.
           
 
         .tarjeta.p-3(x="89%" y="50%" numero="+" style="background-color: #EFEFEF;")
@@ -495,7 +495,7 @@
         p.mb-0 Las actuales condiciones de aumento de negocios por estructuras digitales, obligan a las empresas a contar con medios de registro de la información, como las bases de datos que resguardan de espías informáticos. La información documentada relevante en el diario actuar de las corporaciones y el registro de la información, son un protocolo de infraestructura tecnológica que se guarda en medios magnéticos: imágenes, formatos de Office y diferentes herramientas clave.
           br
           br
-          |Por otro lado, existen emprendimientos emergentes que almacenan cualquier cantidad de datos en la nube, lo cual se convierte en soporte técnico y de servicio para las corporaciones. Igual de efectivo, es guardar información en medios magnéticos, hardware ópticos o envío de información por red, infraestructuras que tienen el mismo funcionamiento que un cerebro humano, las cuales se soportan en dos formas estructurales de archivar, con la complejidad que amerita.
+          |Por otro lado, existen emprendimientos emergentes que almacenan cualquier cantidad de datos en la nube, lo cual se convierte en soporte técnico y de servicio para las corporaciones. Igual de efectivo, es guardar información en medios magnéticos, #[em hardware] ópticos o envío de información por red, infraestructuras que tienen el mismo funcionamiento que un cerebro humano, las cuales se soportan en dos formas estructurales de archivar, con la complejidad que amerita.
       img.col-xl-4.order-1.order-xl-2.mx-auto.mb-4.mb-xl-0(src="@/assets/curso/temas/tema2/img-25.svg" style="max-width: 400px")
     
     
@@ -533,7 +533,8 @@
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor.d-flex.flex-wrap.align-content-center(style="aspect-ratio: 40/43;")
             .tarjeta-slide__contenido.p-4.p-xl-5
-              p.mb-0 #[b Utilizar bases de datos de la empresa]
+              p.mb-0 #[b Utilizar bases de datos de la empresa.]
+                br 
                 | Encierra utilizar todas las actividades que tienen que ver con las obligaciones diarias para el cumplimiento de las funciones propias del puesto de trabajo.  
             .tarjeta-slide__img.d-flex.flex-wrap.align-items-center.justify-content-center(style="background-color: #FAEBCD")
               img.col-12.mx-auto(src="@/assets/curso/temas/tema2/img-28.svg" style="max-width: 144px;")
@@ -544,7 +545,8 @@
         .tarjeta.tarjeta-slide.arriba.color-secundario
           .tarjeta-slide__contenedor.d-flex.flex-wrap.align-content-center(style="aspect-ratio: 40/43;")
             .tarjeta-slide__contenido.p-4.p-xl-5
-              p.mb-0 #[b Base de datos con información financiera]
+              p.mb-0 #[b Base de datos con información financiera.]
+                br 
                 |Recabar en la utilización de datos financieros relevantes para su puesto de trabajo, balances, precios de ventas, valor de inventarios, entre otros.
             .tarjeta-slide__img.d-flex.flex-wrap.align-items-center.justify-content-center(style="background-color: #FAEBCD")
               img.col-12.mx-auto(src="@/assets/curso/temas/tema2/img-29.svg" style="max-width: 144px;")
@@ -555,7 +557,8 @@
         .tarjeta.tarjeta-slide.arriba.color-secundario
           .tarjeta-slide__contenedor.d-flex.flex-wrap.align-content-center(style="aspect-ratio: 40/43;")
             .tarjeta-slide__contenido.p-4.p-xl-5
-              p.mb-0 #[b Caracterización de clientes]
+              p.mb-0 #[b Caracterización de clientes.]
+                br 
                 | Fuente de información de clientes internos, externos, códigos de identificación, correos electrónicos, redes sociales, datos telefónicos, entre otros.
             .tarjeta-slide__img.d-flex.flex-wrap.align-items-center.justify-content-center(style="background-color: #FAEBCD")
               img.col-12.mx-auto(src="@/assets/curso/temas/tema2/img-30.svg" style="max-width: 144px;")

@@ -430,7 +430,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 2. 
           span Caracterización logística de un suministro
-        img(src='@/assets/curso/temas/49.svg', alt='')
+        img(src='@/assets/curso/temas/49.svg', alt='Imagen de un formato de caracterización logística de un suministro y sus respectivos campos de diligenciamiento.')
     .mn.p-5.mb-5(style="background-color: #fff9ed")
       p.mb-5(data-aos='fade-right').fw-bold Se debe tener presente que cuando se elabora una caracterización deben incluirse los siguientes elementos:
       .row.justify-content-center.align-items-center.mb-5
@@ -471,7 +471,7 @@
         .tarjeta.w-100(style="background-color: #faebcd ")
           .p-4
             h4.text-center Fase 03
-            p.text-center Especificar el inicio y e final del proceso; esto es relevante porque es ahí donde se delimita el proceso.
+            p.text-center Especificar el inicio y el final del proceso; esto es relevante porque es ahí donde se delimita el proceso.
       .tarjeta-avatar
         img(src='@/assets/curso/temas/51.svg' alt='AvatarTop')
         .tarjeta.w-100(style="background-color: #f7b174 ")

@@ -133,13 +133,6 @@ export default {
       link: 'https://www.youtube.com/watch?v=OFVrTMPQi5c',
     },
     {
-      tema: '1.1 Clasificación',
-      referencia:
-        'Montalvo, O. G. (s. f.). <em> Diagnóstico empresarial (análisis integral).</em> Universidad Mayor de San Andrés.',
-      tipo: 'Libro',
-      link: '',
-    },
-    {
       tema: '2.1 Ciclo PHVA',
       referencia:
         'Montesinos, G., S., Vázquez C. de L., C., Maya, E., I., y Gracida, G., E. B. (2020). <em> Mejora continua en una empresa de México. Estudio desde el ciclo Deming.</em>',
@@ -231,7 +224,7 @@ export default {
       referencia:
         'Guevara, D., K. N. (2020). Guía para elaborar la información documentada para un Sistema de gestión de calidad basado en la NTC ISO 9001:2015 para la empresa B & Z Ingeniería S.A.S. (Tesis de grado). Universidad Católica de Colombia.',
       link:
-        'https://repository.ucatolica.edu.co/bitstream/10983/25345/1/GUIA%20PARA%20ELABORAR%20LA%20%20INFORMACION%20DOCUMENTADA%20PARA%20UN%20SISTEMA%20DE%20GESTION%20DE%20CALIDAD%20BASADO%20EN%20LA%20NTC%20ISO%209001-2015%20PARA%20LA%20EMPRESA%20B%20%26%20Z%20INGENIERIA%20SAS..pdf',
+        'https://repository.ucatolica.edu.co/server/api/core/bitstreams/c1efa445-2f46-4a3a-9607-8111c2867b32/content',
     },
     {
       referencia:
@@ -242,8 +235,7 @@ export default {
     {
       referencia:
         'Montalvo, O. G. (2010). Diagnóstico empresarial (análisis integral). Universidad Mayor de San Andrés.',
-      link:
-        'https://repositorio.umsa.bo/xmlui/bitstream/handle/123456789/7322/124365.pdf?sequence=1&isAllowed=y',
+      link: '',
     },
     {
       referencia:
@@ -263,7 +255,7 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Líder del Ecosistema',
           centro: 'Dirección General',
         },
         {
@@ -301,7 +293,19 @@ export default {
         {
           nombre: 'José Gabriel Ortiz Abella',
           cargo: 'Corrector de estilo',
-          centro: 'Centro de Diseño y Metrologí - Regional Distrito Capital',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Fabían Leonardo Correa Díaz',
+          cargo: 'Diseñador Instruccional',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Miroslava González Hernández',
+          cargo: 'Diseñadora Instruccional',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
