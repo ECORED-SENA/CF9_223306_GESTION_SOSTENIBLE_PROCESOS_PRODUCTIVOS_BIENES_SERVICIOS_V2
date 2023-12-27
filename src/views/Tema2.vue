@@ -467,7 +467,7 @@
         .tarjeta.color-acento-botones.p-3(x="66%" y="83%" numero="+" style="background-color: #EFEFEF;")
           h5.mb-2(style="color: black;") Ejercicio de las actividades de creación y diseño: 
           ul.lista-ul--color
-            li
+            li(style="color:black")
               i.fas.fa-file-alt
               | Área de diseño. 
       
